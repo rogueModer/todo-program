@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>To Do List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bg-info">
+
+    <div class="container">
+      <center class="h1 mb-3">WORK TO-DOS</center>
+      <h4 class="text-center text-calibri text-warning font-calibri">Enter text into the input field to add items to you list (max. 28 characters).</h4>
+      <h4 class="text-center text-Arial font-calibri mt-4 mb-4">Click the item to mark it as complete.</h4>
+      <h4 class="text-center text-white font-calibri">Click the "X" to remove the item from your list.</h4>
+
+      <div class="form-group text-center pb-5 ">
+        <input type="text" id="itemName" placeholder="New Item...." class="form-control d-inline w-75 mt-5 rounded-0">
+        <button type="button" id="submitbtn" class="btn btn-warning rounded-0">Save</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul id="taskList" class="list-unstyled"></ul>
+    <div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/myscript.js"></script>
+  </body>
+</html>
